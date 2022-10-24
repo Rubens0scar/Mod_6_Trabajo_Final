@@ -1,0 +1,306 @@
+{
+	"menus": [
+		{
+			"id": 1,
+			"etiqueta": "Tipo Parametros",
+			"url": "http://localhost:8080/tipo"
+		},
+		{
+			"id": 2,
+			"etiqueta": "Parametros",
+			"url": "http://localhost:8080/parametros"
+		},
+		{
+			"id": 3,
+			"etiqueta": "Paciente",
+			"url": "http://localhost:8080/paciente"
+		}
+	],
+	"tipo_parametro": [
+    {
+      "id": 1,
+      "descripcion": "genero"
+    },
+    {
+      "id": 2,
+      "descripcion": "tipo pago"
+    },
+    {
+      "id": 3,
+      "descripcion": "tipo examenes"
+    },
+    {
+      "id": 4,
+      "descripcion": "tipo medicamento"
+    },
+    {
+      "id": 5,
+      "descripcion": "estado civil"
+    },
+    {
+      "id": 6,
+      "descripcion": "ciudad"
+    },
+    {
+      "id": 7,
+      "descripcion": "nivel educativo"
+    },
+    {
+      "descripcion": "taty & ruben",
+      "id": 8
+    }
+  ],
+  "parametros": [
+    {
+      "id": 1,
+      "descripcion": "Masculino",
+      "tipo": 1
+    },
+    {
+      "id": 2,
+      "descripcion": "Femenino",
+      "tipo": 1
+    },
+    {
+      "id": 3,
+      "descripcion": "Efectivo",
+      "tipo": 2
+    },
+    {
+      "id": 4,
+      "descripcion": "Asegurado",
+      "tipo": 2
+    },
+    {
+      "id": 5,
+      "descripcion": "Sangre",
+      "tipo": 3
+    },
+    {
+      "id": 6,
+      "descripcion": "Orina",
+      "tipo": 3
+    },
+    {
+      "id": 7,
+      "descripcion": "Heces",
+      "tipo": 3
+    },
+    {
+      "id": 8,
+      "descripcion": "Rayos X",
+      "tipo": 3
+    },
+    {
+      "id": 9,
+      "descripcion": "Ecografia",
+      "tipo": 3
+    },
+    {
+      "id": 10,
+      "descripcion": "Frasco",
+      "tipo": 4
+    },
+    {
+      "id": 11,
+      "descripcion": "Pastillas",
+      "tipo": 4
+    },
+    {
+      "id": 12,
+      "descripcion": "Jeringas",
+      "tipo": 4
+    },
+    {
+      "id": 13,
+      "descripcion": "Suero",
+      "tipo": 4
+    },
+    {
+      "id": 14,
+      "descripcion": "Ampollas",
+      "tipo": 4
+    },
+    {
+      "id": 15,
+      "descripcion": "Soltero/a",
+      "tipo": 5
+    },
+    {
+      "id": 16,
+      "descripcion": "Casado/a",
+      "tipo": 5
+    },
+    {
+      "id": 17,
+      "descripcion": "Otro",
+      "tipo": 5
+    },
+    {
+      "id": 18,
+      "descripcion": "La Paz",
+      "tipo": 6
+    },
+    {
+      "id": 19,
+      "descripcion": "El Alto",
+      "tipo": 6
+    },
+    {
+      "id": 20,
+      "descripcion": "Cochabamba",
+      "tipo": 6
+    },
+    {
+      "id": 21,
+      "descripcion": "Santa Cruz",
+      "tipo": 6
+    },
+    {
+      "id": 22,
+      "descripcion": "Potosi",
+      "tipo": 6
+    },
+    {
+      "id": 23,
+      "descripcion": "Tarija",
+      "tipo": 6
+    },
+    {
+      "id": 24,
+      "descripcion": "Primaria",
+      "tipo": 7
+    },
+    {
+      "id": 25,
+      "descripcion": "Secundaria",
+      "tipo": 7
+    },
+    {
+      "id": 26,
+      "descripcion": "Universidad",
+      "tipo": 7
+    },
+    {
+      "id": 27,
+      "descripcion": "Licenciatura",
+      "tipo": 7
+    },
+    {
+      "id": 28,
+      "descripcion": "Maestria",
+      "tipo": 7
+    },
+    {
+      "id": 29,
+      "descripcion": "Doctorado",
+      "tipo": 7
+    },
+    {
+      "descripcion": "prueba ruben",
+      "tipo": 1,
+      "id": 30
+    }
+  ],
+  "paciente": [
+    {
+      "codigo": "PAC-000001",
+      "nombre": "Ruben Oscar",
+      "apellidos": "Guancollo Quisbert",
+      "id_genero": 1,
+      "email": "rogq.ruben@gmail.com",
+      "id_ciudad": 18,
+      "edad": "44",
+      "id_estado_civil": 15,
+      "telefono": "75875552",
+      "direccion": "Avenida Nicolas Ortiz 356",
+      "id_nivel_educativo": 27,
+      "ocupacion": "Informatico",
+	  "estado": 0,
+      "id": 0
+    },
+    {
+      "codigo": "PAC-000001",
+      "nombre": "Ruben Oscar",
+      "apellidos": "Guancollo Quisbert",
+      "id_genero": 1,
+      "email": "rogq.ruben@gmail.com",
+      "id_ciudad": 18,
+      "edad": "44",
+      "id_estado_civil": 15,
+      "telefono": "75875552",
+      "direccion": "Avenida Nicolas Ortiz 356",
+      "id_nivel_educativo": 28,
+      "ocupacion": "Informatico",
+	  "estado": 1,
+      "id": 1
+    },
+    {
+      "codigo": "PAC-000002",
+      "nombre": "Marleny",
+      "apellidos": "Urbina",
+      "id_genero": 2,
+      "email": "marle@gmail.com",
+      "id_ciudad": 18,
+      "edad": "38",
+      "id_estado_civil": 15,
+      "telefono": "75875242",
+      "direccion": "Sopocachi",
+      "id_nivel_educativo": 28,
+      "ocupacion": "Informatico",
+	  "estado": 1,
+      "id": 2
+    }
+	
+  ],
+  "consulta": [
+    {
+      "id": 0,
+      "id_paciente": 0,
+      "motivo_consulta": "Dolencia",
+      "fecha_atencion": "10/13/2022",
+      "hora_atencion": "15:00",
+      "id_tipo_pago": 2,
+      "peso": 78.5,
+      "estatura": 40,
+      "fecha_proxima_consulta": "10/21/2022"
+    }
+  ],
+  "diagnostico": [
+    {
+      "id": 0,
+      "id_consulta": 0,
+      "nombre_diag": "Dolencia en la espalda media",
+      "descripcion_diag": "Descripcion"
+    }
+  ],
+  "examenes": [
+    {
+      "id": 0,
+      "id_consulta": 0,
+      "id_tipo_examen": 2,
+      "detalle_examen": "Detalle",
+      "resultado_examen": "Resultado"
+    }
+  ],
+  "tratamiento": [
+    {
+      "id": 0,
+      "id_consulta": 0,
+      "id_diagnostico": 0,
+      "tratamiento": "tratamiento en detalle",
+      "dieta": "dieta explicada si corresponde"
+    }
+  ],
+  "medicamentos": [
+    {
+      "id": 0,
+      "id_tratamiento": 0,
+      "codigo_medicamento": "MED-000000",
+      "nombre_medicamento": "nombre",
+      "cantidad": 3,
+      "id_tipo_medicamento": 2,
+      "detalle": "detalle de la receta"
+    }
+  ]
+}
